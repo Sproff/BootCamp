@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 20px; */
+}
+
+.bg-img {
+    background-image:  linear-gradient(rgba(32, 12, 109, 0.7), rgba(32, 12, 109, 0.7)), url(../img/background.jpg);
+}
+
+.navbar-toggler { 
+    background-color: #fff;
+   
+}
+
+.navbar-light .navbar-toggler {
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link { color: #fff;}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #EA9B24;
+}
+
+.header-text {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.btn-ghost {
+    border: 2px solid #EA9B24;
+}
+
+.btn-ghost:hover {
+    background-color: #EA9B24;
+}
+
+.btn-fill {
+    background-color: #EA9B24;
+}
+
+.btn-fill:hover {
+    background-color: #d8860b;
+}
+
+
+button, input {
+    font-size: 15px;
+    font-weight: 300;
+    outline: none;
+
+}
+
+.card {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+    background-image:  linear-gradient(rgba(32, 12, 109, 0.7), rgba(32, 12, 109, 0.7)), url(../img/testimonial.png);
+}
+
+.test-para {
+    color: rgb(209, 205, 205);
+}
+
+footer {
+    background-color: #200C6D;
+}
+
+.footer-link .nav-link {
+    color: #fff;
+}
+
+.footer-link .nav-link:hover {
+    color: #EA9B24;
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar-brand {
+        margin-left: 80px;
+    }
+ }
+
+
+
+   
